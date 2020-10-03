@@ -1,0 +1,368 @@
+Sat Oct  3 00:49:58.284 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 00:49:58.393 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 00:49:58.393 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 00:49:58.393 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 00:49:58.393 <kernel> Error storing postMessage 74
+Sat Oct  3 00:49:58.446 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 00:49:58.525 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 00:49:58.525 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 00:49:58.525 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 00:49:58.525 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 00:49:58.525 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 00:49:58.525 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 00:49:58.525 <kernel> process1of4: authsel is 2
+Sat Oct  3 00:49:58.526 <kernel> PMK:
+Sat Oct  3 00:49:58.526 <kernel> TPTK:
+Sat Oct  3 00:49:58.526 <kernel> KEY MIC:
+Sat Oct  3 00:49:58.526 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 00:49:58.551 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 00:49:58.551 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 00:49:58.551 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 00:49:58.551 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 00:49:58.551 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 00:49:58.551 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 00:49:58.551 <kernel> process3of4: Performing IE check.
+Sat Oct  3 00:49:58.551 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 00:49:58.551 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 00:49:58.551 <kernel> ptkThread: Sleeping!
+Sat Oct  3 00:49:58.552 <kernel> ptkThread: Sleeping!
+Sat Oct  3 00:49:58.553 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 00:49:58.553 <kernel> PTK:
+Sat Oct  3 00:49:58.553 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 00:49:58.553 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 00:49:58.553 <kernel> GTK-RSC:
+Sat Oct  3 00:49:58.554 <kernel> GTK:
+Sat Oct  3 00:49:58.554 <kernel> installGTK: GTK installed
+Sat Oct  3 00:55:29.286 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 00:55:29.391 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 00:55:29.391 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 00:55:29.391 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 00:55:29.391 <kernel> Error storing postMessage 74
+Sat Oct  3 00:55:29.445 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 00:55:29.641 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 00:55:29.641 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 00:55:29.641 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 00:55:29.641 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 00:55:29.641 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 00:55:29.641 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 00:55:29.641 <kernel> process1of4: authsel is 2
+Sat Oct  3 00:55:29.641 <kernel> PMK:
+Sat Oct  3 00:55:29.641 <kernel> TPTK:
+Sat Oct  3 00:55:29.641 <kernel> KEY MIC:
+Sat Oct  3 00:55:29.641 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 00:55:29.668 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 00:55:29.668 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 00:55:29.668 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 00:55:29.668 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 00:55:29.668 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 00:55:29.668 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 00:55:29.668 <kernel> process3of4: Performing IE check.
+Sat Oct  3 00:55:29.668 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 00:55:29.668 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 00:55:29.668 <kernel> ptkThread: Sleeping!
+Sat Oct  3 00:55:29.669 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 00:55:29.669 <kernel> PTK:
+Sat Oct  3 00:55:29.669 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 00:55:29.669 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 00:55:29.669 <kernel> GTK-RSC:
+Sat Oct  3 00:55:29.669 <kernel> GTK:
+Sat Oct  3 00:55:29.669 <kernel> installGTK: GTK installed
+Sat Oct  3 01:07:11.930 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 01:07:12.041 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 01:07:12.042 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 01:07:12.042 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 01:07:12.042 <kernel> Error storing postMessage 74
+Sat Oct  3 01:07:12.169 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 01:07:12.169 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:07:12.169 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 01:07:12.169 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 01:07:12.169 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 01:07:12.169 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 01:07:12.169 <kernel> process1of4: authsel is 2
+Sat Oct  3 01:07:12.170 <kernel> PMK:
+Sat Oct  3 01:07:12.170 <kernel> TPTK:
+Sat Oct  3 01:07:12.170 <kernel> KEY MIC:
+Sat Oct  3 01:07:12.170 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 01:07:12.196 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 01:07:12.196 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:07:12.196 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 01:07:12.196 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 01:07:12.196 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 01:07:12.196 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 01:07:12.196 <kernel> process3of4: Performing IE check.
+Sat Oct  3 01:07:12.196 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 01:07:12.196 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 01:07:12.196 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:07:12.197 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:07:12.198 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 01:07:12.198 <kernel> PTK:
+Sat Oct  3 01:07:12.199 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 01:07:12.199 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 01:07:12.199 <kernel> GTK-RSC:
+Sat Oct  3 01:07:12.199 <kernel> GTK:
+Sat Oct  3 01:07:12.199 <kernel> installGTK: GTK installed
+Sat Oct  3 01:07:12.292 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 01:10:19.017 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 01:10:19.118 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 01:10:19.118 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 01:10:19.118 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 01:10:19.118 <kernel> Error storing postMessage 74
+Sat Oct  3 01:10:19.203 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 01:10:19.359 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 01:10:19.360 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:10:19.360 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 01:10:19.360 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 01:10:19.360 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 01:10:19.360 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 01:10:19.360 <kernel> process1of4: authsel is 2
+Sat Oct  3 01:10:19.360 <kernel> PMK:
+Sat Oct  3 01:10:19.360 <kernel> TPTK:
+Sat Oct  3 01:10:19.360 <kernel> KEY MIC:
+Sat Oct  3 01:10:19.360 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 01:10:19.386 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 01:10:19.386 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:10:19.386 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 01:10:19.386 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 01:10:19.387 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 01:10:19.387 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 01:10:19.387 <kernel> process3of4: Performing IE check.
+Sat Oct  3 01:10:19.387 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 01:10:19.387 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 01:10:19.387 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:10:19.388 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 01:10:19.388 <kernel> PTK:
+Sat Oct  3 01:10:19.388 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 01:10:19.388 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 01:10:19.388 <kernel> GTK-RSC:
+Sat Oct  3 01:10:19.388 <kernel> GTK:
+Sat Oct  3 01:10:19.389 <kernel> installGTK: GTK installed
+Sat Oct  3 01:12:18.997 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:12:23.391 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:12:39.672 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:14:03.280 <kernel> Not adding subscription due to missing boot-arg wlan.iorsubscriptions
+Sat Oct  3 01:14:03.510 <kernel> Not adding subscription due to missing boot-arg wlan.iorsubscriptions
+Sat Oct  3 01:14:03.511 <kernel>  Creating all peerManager reporters
+Sat Oct  3 01:14:03.514 <kernel> Not adding subscription due to missing boot-arg wlan.iorsubscriptions
+Sat Oct  3 01:14:03.546 <kernel> wl0: setAWDL_PEER_TRAFFIC_REGISTRATION: active 0, roam_off: 1, err 0 roam_start_set 0 forced_roam_set 0
+Sat Oct  3 01:14:03.606 <kernel> Setting BTCoex Profile: band:8
+Sat Oct  3 01:14:03.606 <kernel> Profile[0]: mode:7; desense:0; desense_level:0; chain_power_offset:<kernel> 0,<kernel> 0,<kernel> 0,<kernel> 0,<kernel> 
+Sat Oct  3 01:14:03.606 <kernel> Profile[1]: mode:7; desense:0; desense_level:0; chain_power_offset:<kernel> 0,<kernel> 0,<kernel> -7,<kernel> 0,<kernel> 
+Sat Oct  3 01:14:03.606 <kernel> Profile[2]: mode:7; desense:1; desense_level:3; chain_power_offset:<kernel> 0,<kernel> 0,<kernel> -7,<kernel> 0,<kernel> 
+Sat Oct  3 01:14:03.606 <kernel> Setting BTCoex Profile: band:2
+Sat Oct  3 01:14:03.606 <kernel> Profile[0]: mode:0; desense:0; desense_level:0; chain_power_offset:<kernel> 0,<kernel> 0,<kernel> 0,<kernel> 0,<kernel> 
+Sat Oct  3 01:14:03.606 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:14:03.611 <kernel> en0: setting diversity to: -1
+Sat Oct  3 01:14:03.611 <kernel> en0: Error configuring antenna diversity (index = -1).
+Sat Oct  3 01:14:03.611 <kernel> en0: setting tx antenna: -1
+Sat Oct  3 01:14:03.611 <kernel> en0: Error configuring transmit antenna (index = -1).
+Sat Oct  3 01:14:03.998 <kernel>  IOCTL (from pid 201) not recognized: 216 out of 379
+Sat Oct  3 01:14:03.998 <kernel>  IOCTL (from pid 201) not recognized: 216 out of 379
+Sat Oct  3 01:14:03.998 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:14:06.552 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 01:14:06.552 <kernel> initWithInterfaceAndIE: _myMacAddress b8:e8:56:3d:98:2c
+Sat Oct  3 01:14:06.552 <kernel> setPSKPMK: PMK SET!
+Sat Oct  3 01:14:06.765 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 65535
+Sat Oct  3 01:14:06.765 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 01:14:06.765 <kernel> payload Data ff ff 00 00 00 00 00 00 28 d1 27 0d df 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 01:14:06.766 <kernel> Error storing postMessage 74
+Sat Oct  3 01:14:07.196 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 01:14:07.196 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 01:14:07.196 <kernel> payload Data 10 00 00 00 00 00 00 00 28 d1 27 0d df 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 01:14:07.196 <kernel> Error storing postMessage 74
+Sat Oct  3 01:14:07.234 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 01:14:07.234  <kernel> No InterfaceAverageCCA
+Sat Oct  3 01:14:07.234 <kernel> Adding setInterfaceAverageCCA with cca 4
+Sat Oct  3 01:14:07.234 <kernel> Added known cca 4 for channel 44 into setInterfaceAverageCCA 
+Sat Oct  3 01:14:07.327 <kernel> Unexpected payload found for message 9, dataLen 0
+Sat Oct  3 01:14:07.328 <kernel> Error storing postMessage 9
+Sat Oct  3 01:14:08.309 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 01:14:08.309 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:14:08.309 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 01:14:08.309 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 01:14:08.309 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 01:14:08.309 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 01:14:08.309 <kernel> process1of4: authsel is 2
+Sat Oct  3 01:14:08.309 <kernel> PMK:
+Sat Oct  3 01:14:08.309 <kernel> TPTK:
+Sat Oct  3 01:14:08.309 <kernel> KEY MIC:
+Sat Oct  3 01:14:08.309 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 01:14:08.335 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 01:14:08.335 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:14:08.336 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 01:14:08.336 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 01:14:08.336 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 01:14:08.336 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 01:14:08.336 <kernel> process3of4: Performing IE check.
+Sat Oct  3 01:14:08.336 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 01:14:08.336 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 01:14:08.336 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:14:08.337 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 01:14:08.337 <kernel> PTK:
+Sat Oct  3 01:14:08.337 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 01:14:08.337 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 01:14:08.337 <kernel> GTK-RSC:
+Sat Oct  3 01:14:08.337 <kernel> GTK:
+Sat Oct  3 01:14:08.337 <kernel> installGTK: GTK installed
+Sat Oct  3 01:14:14.968 <kernel> Adding setInterfaceAverageCCA with cca 0
+Sat Oct  3 01:16:30.106 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:26:27.999 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 01:26:28.125 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 01:26:28.125 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 01:26:28.125 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 01:26:28.125 <kernel> Error storing postMessage 74
+Sat Oct  3 01:26:28.214 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 01:26:28.266 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 01:26:28.266 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:26:28.266 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 01:26:28.266 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 01:26:28.266 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 01:26:28.266 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 01:26:28.266 <kernel> process1of4: authsel is 2
+Sat Oct  3 01:26:28.266 <kernel> PMK:
+Sat Oct  3 01:26:28.266 <kernel> TPTK:
+Sat Oct  3 01:26:28.266 <kernel> KEY MIC:
+Sat Oct  3 01:26:28.266 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 01:26:28.321 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 01:26:28.321 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:26:28.321 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 01:26:28.321 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 01:26:28.321 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 01:26:28.321 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 01:26:28.321 <kernel> process3of4: Performing IE check.
+Sat Oct  3 01:26:28.321 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 01:26:28.321 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 01:26:28.321 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.322 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.323 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.324 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.325 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.326 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.327 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.328 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:26:28.329 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 01:26:28.330 <kernel> PTK:
+Sat Oct  3 01:26:28.330 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 01:26:28.330 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 01:26:28.330 <kernel> GTK-RSC:
+Sat Oct  3 01:26:28.330 <kernel> GTK:
+Sat Oct  3 01:26:28.330 <kernel> installGTK: GTK installed
+Sat Oct  3 01:32:20.612 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:32:45.290 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:2, enable_5G:1, profile_5G:0
+Sat Oct  3 01:32:57.569 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 01:32:57.683 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 01:32:57.684 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 01:32:57.684 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 01:32:57.684 <kernel> Error storing postMessage 74
+Sat Oct  3 01:32:57.765 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 01:32:58.894 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 01:32:58.894 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:32:58.894 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 01:32:58.894 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 01:32:58.894 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 01:32:58.894 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 01:32:58.894 <kernel> process1of4: authsel is 2
+Sat Oct  3 01:32:58.894 <kernel> PMK:
+Sat Oct  3 01:32:58.895 <kernel> TPTK:
+Sat Oct  3 01:32:58.895 <kernel> KEY MIC:
+Sat Oct  3 01:32:58.895 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 01:32:58.920 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 01:32:58.920 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 01:32:58.921 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 01:32:58.921 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 01:32:58.921 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 01:32:58.921 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 01:32:58.921 <kernel> process3of4: Performing IE check.
+Sat Oct  3 01:32:58.921 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 01:32:58.921 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 01:32:58.921 <kernel> ptkThread: Sleeping!
+Sat Oct  3 01:32:58.922 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 01:32:58.922 <kernel> PTK:
+Sat Oct  3 01:32:58.922 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 01:32:58.922 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 01:32:58.922 <kernel> GTK-RSC:
+Sat Oct  3 01:32:58.922 <kernel> GTK:
+Sat Oct  3 01:32:58.923 <kernel> installGTK: GTK installed
+Sat Oct  3 01:46:13.729 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:46:30.963 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:55:56.305 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:56:34.709 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:57:07.701 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 01:57:57.994 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Sat Oct  3 02:11:01.926 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 02:11:02.058 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 02:11:02.058 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 02:11:02.058 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 02:11:02.058 <kernel> Error storing postMessage 74
+Sat Oct  3 02:11:02.118 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 02:11:02.228 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 02:11:02.228 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 02:11:02.228 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 02:11:02.228 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 02:11:02.228 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 02:11:02.228 <kernel> process1of4: authsel is 2
+Sat Oct  3 02:11:02.228 <kernel> PMK:
+Sat Oct  3 02:11:02.228 <kernel> TPTK:
+Sat Oct  3 02:11:02.228 <kernel> KEY MIC:
+Sat Oct  3 02:11:02.228 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 02:11:02.247 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 02:11:02.247 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 02:11:02.247 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 02:11:02.247 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 02:11:02.247 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 02:11:02.247 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 02:11:02.247 <kernel> process3of4: Performing IE check.
+Sat Oct  3 02:11:02.247 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 02:11:02.247 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 02:11:02.247 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.248 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.249 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.251 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.252 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.258 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.258 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.258 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.258 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.258 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.259 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:02.260 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 02:11:02.260 <kernel> PTK:
+Sat Oct  3 02:11:02.261 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 02:11:02.261 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 02:11:02.261 <kernel> GTK-RSC:
+Sat Oct  3 02:11:02.261 <kernel> GTK:
+Sat Oct  3 02:11:02.261 <kernel> installGTK: GTK installed
+Sat Oct  3 02:11:02.414 <kernel> Setting BTCoex Config: enable_2G:1, profile_2g:2, enable_5G:1, profile_5G:0
+Sat Oct  3 02:11:51.174 <kernel> en0: roam event, sending supplicant link down message.
+Sat Oct  3 02:11:51.300 <kernel> Failed test for valid apple80211_postMessage_tlv_types in data, 220713256
+Sat Oct  3 02:11:51.300 <kernel> Unexpected payload found for message 74, dataLen 104
+Sat Oct  3 02:11:51.300 <kernel> payload Data 00 00 00 00 00 00 00 00 28 d1 27 0d df 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Sat Oct  3 02:11:51.300 <kernel> Error storing postMessage 74
+Sat Oct  3 02:11:51.410 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Sat Oct  3 02:11:52.144 <kernel> en0: Received EAPOL packet (length = 113)
+Sat Oct  3 02:11:52.144 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 02:11:52.144 <kernel> inputEAPOLFrame: Received message 1 of 4
+Sat Oct  3 02:11:52.144 <kernel> FULL RSN IE FOUND:
+Sat Oct  3 02:11:52.145 <kernel> storeFullRSNIE: getAP_IE_LIST returned 0
+Sat Oct  3 02:11:52.145 <kernel> parseRSNIE: groupCipherType = 3 pairwiseCipherType = 5 authSel = 2
+Sat Oct  3 02:11:52.145 <kernel> process1of4: authsel is 2
+Sat Oct  3 02:11:52.145 <kernel> PMK:
+Sat Oct  3 02:11:52.145 <kernel> TPTK:
+Sat Oct  3 02:11:52.145 <kernel> KEY MIC:
+Sat Oct  3 02:11:52.145 <kernel> process1of4: sending replyPacket 135 bytes
+Sat Oct  3 02:11:52.171 <kernel> en0: Received EAPOL packet (length = 193)
+Sat Oct  3 02:11:52.171 <kernel> inputEAPOLFrame: 0 extra bytes present in EAPOL frame.
+Sat Oct  3 02:11:52.171 <kernel> inputEAPOLFrame: decrypting key data
+Sat Oct  3 02:11:52.171 <kernel> inputEAPOLFrame: Received message 3 of 4
+Sat Oct  3 02:11:52.171 <kernel> process3of4: Unknown Elem ID 221
+Sat Oct  3 02:11:52.171 <kernel> process3of4: Unknown Elem ID 0
+Sat Oct  3 02:11:52.171 <kernel> process3of4: Performing IE check.
+Sat Oct  3 02:11:52.171 <kernel> process3of4: sending replyPacket ( len = 113 ).
+Sat Oct  3 02:11:52.171 <kernel> process3of4: received pairwise GTK
+Sat Oct  3 02:11:52.171 <kernel> ptkThread: Sleeping!
+Sat Oct  3 02:11:52.172 <kernel> ptkThread: Installing PTK!
+Sat Oct  3 02:11:52.173 <kernel> PTK:
+Sat Oct  3 02:11:52.173 <kernel> ptkThread: Installing GTK!
+Sat Oct  3 02:11:52.173 <kernel> installGTK: setting cipher key (flags = 0x0)
+Sat Oct  3 02:11:52.173 <kernel> GTK-RSC:
+Sat Oct  3 02:11:52.173 <kernel> GTK:
+Sat Oct  3 02:11:52.173 <kernel> installGTK: GTK installed
